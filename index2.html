@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewsport" content ="width=dev-width, initial=scale=1,0">
+    <title> FORM PESANAN </title>
+<style>
+.myDiv {
+  border: 2px outset black;  
+  text-align: left;
+}
+</style>
+</head>
+<body>
+    <legend>
+    <div class="myDiv">
+        <ul>
+            <a href="">HOME</a> | &nbsp; &nbsp;
+            <a href="">Generate Link</a> | &nbsp; &nbsp;
+            <a href="">Transaction History</a> | &nbsp; &nbsp;
+            <a href="">Policy</a> | &nbsp; &nbsp;
+            <a href="">Logout</a>  &nbsp; &nbsp;
+        <ul>
+</div>
+      
+     <img align="left" src ="sofa123.jpg" alt="pict1.jpg"width="350">
+ 
+<br>   
+<br>      
+<table align ="left " cellpandding="5" width="400"> 
+
+    
+     <label for="title here "><b>Title here : </b></label>
+     <input type ="text" id="title here"> 
+<br> 
+    <label for="description "><b>Description :</b></label>
+    <br>
+    <textarea id="description" rows ="4" cols ="50"> </textarea> <br>
+<br>
+    <label for="account number "><b> Account Number : </b></label>
+    <input type ="text" id="account number"> 
+    
+    <p><b>Bank :</b><input type="text" list="bank account"></p>
+<datalist id="bank account">
+    <option value="BCA (BANK CENTRAL ASIA)">
+    <option value="BNI (BANK NEGARA INDONESIA)">
+    <option value="BRI (BANK RAKYAT INDONESIA)">
+    <option value="BMI (BANK MUAMALAT INDONESIA) ">
+    <option value="BM (BANK MANDIRI)">
+    </option>        
+</datalist>
+    <label for="account holder "><b> Account Holder : </b></label>
+    <input type ="text" id="account holder"> 
+      
+    <p><b>Transaction :</b></p>   
+    <input type="number">
+   
+<p><b>*If the transaction is for 3 person,choose 3 from the drop-down list </b></p>    
+
+   <input type="checkbox"id="sendtomobilephone" name="vehicle1">
+   <label for="sendtomobilephone"style="color:green;"><b>Send to Mobile Phone </b></label><br>
+
+   <input type="checkbox"id="sendtoemail" name="vehicle2">
+   <label for="sendtoemail"style="color:green;"><b> Send to Email </b></label><br>
+<br>
+   <label for="sendtomobilephone "><b>Send to Mobile Phone : </b></label>
+   <input type ="text" id="sendtomobilephone ">
+<br> 
+   <label for="sendtoemail "><b>Send to Email : </b></label>
+   <input type ="text" id="sendtoemail ">
+<br>
+     
+<br>
+   <input type="submit" style="background-color:rgb(0, 160, 0);" value="Generate Nabr Link">
+   <br>
+   <br>
+   <br>
+   <input type="submit"value="Upload Picture">
+  
+
+
+
+</legend>
+</body>    
+</html>
